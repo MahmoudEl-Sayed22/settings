@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Settings</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		.nav-pills .nav-link.active{
+    color: #000000;
+    background-color: white;
+}
+	</style>
+</head>
+<body>
+	<section class="py-5 my-5 " >
+		<div class="container ">
+			<!-- <h1 class="mb-5">Account Settings</h1> -->
+			<div class="bg-white shadow rounded-lg d-block d-sm-flex">
+				<div class="profile-tab-nav border-right">
+					<!-- <div class="p-4"> -->
+						<!-- <div class="img-circle text-center mb-3">
+							<img src="img/user2.jpg" alt="Image" class="shadow">
+						</div> -->
+						<!-- <h4 class="text-center">Kiran Acharya</h4> -->
+					<!-- </div> -->
+					<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+						<a class="nav-link active" id="account-tab" data-toggle="pill" href="#account" role="tab" aria-controls="account" aria-selected="true">
+							<i class="fa fa-home text-center mr-1"></i> 
+							Edit Profile
+						</a>
+						<a class="nav-link" id="password-tab" data-toggle="pill" href="#password" role="tab" aria-controls="password" aria-selected="false">
+							<i class="fa fa-key text-center mr-1"></i> 
+							Change Password
+						</a>
+						<a class="nav-link" id="security-tab" data-toggle="pill" href="#security" role="tab" aria-controls="security" aria-selected="false">
+							<i class="fa fa-user text-center mr-1"></i> 
+							Email Notification
+						</a>
+						<a class="nav-link" id="application-tab" data-toggle="pill" href="#application" role="tab" aria-controls="application" aria-selected="false">
+							<i class="fa fa-tv text-center mr-1"></i> 
+							Push Notification
+						</a>
+						<a class="nav-link" id="notification-tab" data-toggle="pill" href="#notification" role="tab" aria-controls="notification" aria-selected="false">
+							<i class="fa fa-bell text-center mr-1"></i> 
+							Privacy and security
+						</a>
+					</div>
+				</div>
+				<div class="tab-content p-4 p-md-5" id="v-pills-tabContent">
+					<div class="tab-pane fade show active" id="account" role="tabpanel" aria-labelledby="account-tab">
+						<div class="row text-center">
+						<div class="img-circle  mb-3 col-md-12">
+						<img src="img/me.jpg" alt="Image" class="shadow">
+						<h4 class="text-center">Mahmoud El-Sayed</h4>
+						<a href="">Change profile photo</a>
+						</div>
+							<div class="col-md-12">
+								<div class="form-inline col-md-12 text-center">
+								  	<label class="fw-bold col-lg-4 col-form-label mb-auto  ">Name </label>
+									  <div class=" col-lg-8 row">
+										<!-- <div class="row"> -->
+											<div class="col-12 w-100">
+								  	<input type="text" class="form-control w-100" placeholder="Mahmoud El-Sayed">
+											</div>
+								<div class="col-12 w-100 ">
+									<small  > You are using the same name on Instagram and Facebook. Go to Facebook to change your name. <a href="">Change Name</a></small>
+								</div>
+								<!-- </div>	 -->
+								</div>
+								</div>
+							</div>
+							<div class="col-md-12 mt-3">
+								<div class="form-inline col-md-12 text-center">
+								  	<label class="fw-bold col-lg-4 col-form-label mb-auto">User Name</label>
+									<div class=" col-lg-8 row">
+										<div class="col-12 w-100">
+								  	<input type="text" class="form-control w-100" value="mahmoudelsayed">
+										</div>
+										<div class="col-12 w-100">
+									<small>In most cases, you'll be able to change your username back to malsayed752 for another 14 days.<a href="">Learn more</a> </small>
+										</div>
+									</div>
+								</div>
+							<div class="col-md-12 mt-3">
+								<div class="form-inline col-md-12 text-center">
+								  	<label class="fw-bold col-lg-4 col-form-label mb-auto">Website</label>
+									  <div class=" col-lg-8 row">
+										<div class="col-12 w-100">
+								  	<input type="text" class="form-control w-100 " value="website">
+								</div>
+								<div class="col-12 w-100">
+									<small > Editing your links is only available on mobile. Visit the Instagram app and edit your profile to change the websites in your bio.</small>
+								     </div>
+								     </div>
+								</div>
+							</div>
+							<div class="col-md-12 mt-3">
+								<div class="form-inline col-md-12 text-center">
+								  	<label class="fw-bold col-lg-4 col-form-label mb-auto">Bio</label>
+									  <div class=" col-lg-8 row">
+										<div class="col-12 w-100 ">
+									<textarea class="form-control w-100" rows="4">Lorem ipsum dolor sit amet consectetur </textarea>
+										</div>
+										<div class="col-12 w-100 mt-4">
+											<small > Personal information<br>
+												Provide your personal information, even if the account is used for a business, a pet or something else. This won't be a part of your public profile..</small>											 </div>
+											</div>
+								</div>
+							</div>
+							<div class="col-md-12 mt-3">
+								
+								<div class="col-md-12 mt-3">
+									<div class="form-inline col-md-12 text-center">
+										  <label class="fw-bold col-lg-4 col-form-label ">Email</label>
+										  <div class=" col-lg-8 row">
+											<div class="col-12 w-100">
+										  <input type="text" class="form-control w-100 " value="malsayed752@gmail.com">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-12 mt-3">
+									<div class="form-inline col-md-12 text-center">
+										<label class="fw-bold col-lg-4 col-form-label ">Phone</label>
+										<div class=" col-lg-8 row">
+											<div class="col-12 w-100">
+										<input type="text" class="form-control w-100 " value="01026494745">
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-12 mt-3">
+									<div class="form-inline col-md-12 text-center">
+										  <label class="fw-bold col-lg-4 col-form-label">Gender</label>
+										  <div class=" col-lg-8 row">
+											<div class="col-12 w-100">
+										  <input type="text" class="form-control w-100 " value="Male">
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+						</div>
+					</div>
+						<div>
+							
+							<span class="col-md-6">
+							<button class="btn btn-primary ">Summit</button>
+							</span>
+							<a class=" col-md-6" href="">Temporart deactivate my account</a>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="password" role="tabpanel" aria-labelledby="password-tab">
+						<div class="row text-center">
+							<div class="img-circle  mb-3 col-md-12">
+							<img src="img/me.jpg" alt="Image" class="shadow">
+							<h4 class="text-center">Mahmoud El-Sayed</h4>
+							</div>
+							<div class="col-md-12 mb-3">
+								<div class="form-inline">
+								  	<label class="col-lg-4 col-form-label">Old password</label>
+								  	<input type="password" class="form-control col-lg-8">
+								</div>
+							</div>
+						
+						
+							<div class="col-md-12 mb-3">
+								<div class="form-inline">
+								  	<label class="col-lg-4 col-form-label">New password</label>
+								  	<input type="password" class="form-control col-lg-8">
+								</div>
+							</div>
+							
+						
+							<div class="col-md-12 mb-3">
+								<div class="form-inline">
+								  	<label class="col-lg-4 col-form-label">Confirm new password</label>
+								  	<input type="password" class="form-control col-lg-8">
+								</div>
+						</div>
+						</div>
+						<div class="col-md-6">
+							<button class="btn btn-primary">Change Password</button>
+						</div>
+						<br>
+						<a class=" col-md-6" href="">forget password ?</a>
+					</div>
+					<div class="tab-pane fade" id="security" role="tabpanel" aria-labelledby="security-tab">
+						
+					</div>
+					<div class="tab-pane fade" id="application" role="tabpanel" aria-labelledby="application-tab">
+						
+					</div>
+					<div class="tab-pane fade" id="notification" role="tabpanel" aria-labelledby="notification-tab">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
